@@ -115,6 +115,9 @@ Built with modern Java SE features, demonstrating OOP principles, design pattern
 | **Assertions**                   | `Course.java` constructor (`assert credits > 0 && credits <= 18`) |
 | **Arrays & Array Utilities**     | `courseservice.java`, sorting examples with `Arrays.sort()` |
 
+
+---
+
 ## 🧪 Notes on Enabling Assertions:
 
 Assertions are used in the project to enforce invariants.  
@@ -123,3 +126,40 @@ For example, in `Course.java` constructor:
 ```java
 assert credits > 0 && credits <= 18 : "Credits must be between 1 and 18";
 ```
+
+## Design Patterns Used:
+- **Singleton**: `AppConfig` for centralized configuration
+- **Service Layer**: Separate service classes for each domain
+- **Factory**: Object creation patterns in service classes
+- **DTO**: Data transfer objects for file operations
+
+---
+
+# 📁 Project Structure Deep Dive
+```text
+Campus-Course-Record-Manager/
+├── src/
+│   ├── edu/ccrm/
+│   │   ├── cli/           # Command-line interface
+│   │   ├── config/        # Configuration management
+│   │   ├── domain/        # Business entities
+│   │   ├── io/           # File operations
+│   │   └── service/      # Business logic
+├── students.csv          # Sample student data
+├── courses.csv          # Sample course catalog
+└── README.md           # Project documentation
+```
+
+---
+
+# 🔮 Future Enhancements
+Potential improvements for the project:
+
+- Database integration with JDBC
+- Web interface using Spring Boot
+- REST API for external integrations
+- Advanced reporting with charts
+- User authentication and authorization
+- Batch processing for large datasets
+
+---
