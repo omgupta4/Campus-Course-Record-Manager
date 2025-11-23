@@ -135,7 +135,7 @@ assert credits > 0 && credits <= 18 : "Credits must be between 1 and 18";
 
 ---
 
-# 📁 Project Structure Deep Dive
+## 📁 Project Structure Deep Dive
 ```text
 Campus-Course-Record-Manager/
 ├── src/
@@ -152,7 +152,7 @@ Campus-Course-Record-Manager/
 
 ---
 
-# 🔮 Future Enhancements
+## 🔮 Future Enhancements
 Potential improvements for the project:
 
 - Database integration with JDBC
